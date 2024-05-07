@@ -84,9 +84,11 @@ section > h2 {
 }
 
 #c1 {
+    animation: roupas 8s linear infinite;
     background: url(../imagens/Roupas.png);
     background-repeat: no-repeat;
 }
+
 
 #c2 {
     background: url(../imagens/camisas.png);
@@ -221,6 +223,11 @@ footer > ul > li > a:hover {
         background-repeat: no-repeat;
         margin: auto;
     }
+
+    footer {
+        width: 350px;
+    }
+}
 
     footer {
         width: 100%;
