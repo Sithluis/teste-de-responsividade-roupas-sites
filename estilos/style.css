@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Source Code Pro", monospace;;
+}
+
+body {
+    background-color: rgb(219, 218, 218);
+    color: rgb(28, 26, 36);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.233);
+    overflow-x: hidden;
+}
+
+header { 
+    background-color: rgb(59, 55, 75);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.233);
+    height: 8vh;
+    overflow-x: hidden;
+}
+
+header > h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1;
+    position: relative;
+    left: 100%;
+    animation: cash 25s linear infinite;
+}
+
+@keyframes cash {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+#banner {
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 12vh;
+    background-color: rgb(59, 55, 75);
+    border-radius: 0px 0px 10px 10px;
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+#rolando {
+    display: flex;
+    position: relative;
+    animation: rol 10s linear infinite;
+}
+
+@keyframes rol {
+    0% {
+        left: 50%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+section {
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+section > h2 {
+    padding: 10px;
+}
+
+.imgT {
+    width: 500px;
+    height: 350px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#c1 {
+    animation: roupas 8s linear infinite;
+}
+
+@keyframes roupas {
+    0% {background: url(../imagens/Roupas.png); background-repeat: no-repeat;}
+    100% {background: url(../imagens/roupas1.png); background-repeat: no-repeat;}
+}
+
+#c2 {
+    background: url(../imagens/camisas.png);
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308), inset 3px 3px 10px rgba(0, 0, 0, 0.308);
+}
+
+#c3 {
+    background: url(../imagens/CalÃ§as.png);
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308), inset 3px 3px 10px rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+}
+
+#c4 {
+    background: url(../imagens/cuecas.png);
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308), inset 3px 3px 10px rgba(0, 0, 0, 0.308);
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px ;
+    padding: 15px;
+    width: 450px;
+    height: 150px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.493);
+    background-color: rgb(32, 30, 41);
+}
+
+footer > h3 {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > ul > li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 4px;
+}
+
+footer > ul > li:hover {
+    box-shadow: 2px 2px 5px rgba(168, 168, 168, 0.24);
+}
+
+footer > ul > li > a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+footer > ul > li > a:hover {
+    text-shadow: 3px 3px 10px black;
+    text-decoration: underline;
+    color: black;
+}
+
+#whatsapp{
+    background-color: #25D366;
+    transition-duration: .3s;
+}
+
+#facebook {
+    background-color: #1877F2;
+    transition-duration: .3s;
+}
+
+#instagram {
+    background: linear-gradient(to right, #FCAF45, #8b69d5);
+    transition-duration: .3s;
+}
+
+@media (max-width: 620px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    header { 
+        background-color: rgb(59, 55, 75);
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.233);
+        height: 5vh;
+        overflow-x: hidden;
+    }
+
+    header > h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        position: relative;
+        left: 100%;
+        animation: cash 25s linear infinite;
+    }
+    
+    @keyframes cash {
+        0% {
+            left: 100%;
+        }
+    
+        100% {
+            left: -100%;
+        }
+    }
+
+    #banner {
+        margin: auto;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        width: 350px;
+        height: 10vh;
+        background-color: rgb(59, 55, 75);
+        border-radius: 0px 0px 10px 10px;
+        border-top: 2px solid rgb(255, 255, 255);
+    }
+
+    #banner > h1{
+        font-size: 25px;
+    }
+
+    #banner > p {
+        font-size: 15px;
+    }
+
+    section {
+        padding: 10px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    section > p {
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .imgT {
+        width: 300px;
+        height: 350px;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+
+    footer {
+        width: 350px;
+    }
+}
