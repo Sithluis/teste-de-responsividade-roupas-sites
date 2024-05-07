@@ -84,12 +84,8 @@ section > h2 {
 }
 
 #c1 {
-    animation: roupas 8s linear infinite;
-}
-
-@keyframes roupas {
-    0% {background: url(../imagens/Roupas.png); background-repeat: no-repeat;}
-    100% {background: url(../imagens/roupas1.png); background-repeat: no-repeat;}
+    background: url(../imagens/Roupas.png);
+    background-repeat: no-repeat;
 }
 
 #c2 {
