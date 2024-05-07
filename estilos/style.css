@@ -172,6 +172,7 @@ footer > ul > li > a:hover {
     }
 
     header { 
+        display: none;
         width: 100%;
         background-color: rgb(59, 55, 75);
         color: rgb(255, 255, 255);
@@ -181,22 +182,12 @@ footer > ul > li > a:hover {
     }
 
     header > h2 {
+        text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 15px;
-        position: relative;
-        left: 100%;
         animation: none;
     }
     
-    @keyframes cash {
-        0% {
-            left: 100%;
-        }
-    
-        100% {
-            left: -100%;
-        }
-    }
 
     #banner {
         margin: auto;
@@ -210,11 +201,11 @@ footer > ul > li > a:hover {
     }
 
     #banner > h1{
-        font-size: 25px;
+        font-size: 2rempx;
     }
 
     #banner > p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     section {
