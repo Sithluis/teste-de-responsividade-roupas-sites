@@ -223,6 +223,6 @@ footer > ul > li > a:hover {
     }
 
     footer {
-        width: 350px;
+        width: 100%;
     }
 }
