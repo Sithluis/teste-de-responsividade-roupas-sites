@@ -225,11 +225,13 @@ footer > ul > li > a:hover {
     }
 
     footer {
-        width: 350px;
+        width: 75%;
     }
-}
 
-    footer {
-        width: 100%;
+    footer > ul > li {
+        margin: auto;
+        width: 65%;
+        list-style-type: none;
+        margin-top: 4px;
     }
 }
