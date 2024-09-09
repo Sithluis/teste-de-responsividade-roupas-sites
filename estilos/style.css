@@ -191,12 +191,12 @@ footer > ul > li > a:hover {
         }
     
         #banner {
-            width: 100%;
+            width: 98%;
             height: 10vh;
         }
     
         #banner > h1 {
-            font-size: 2rem;
+            font-size: 26px;
         }
     
         #banner > p {
@@ -210,7 +210,7 @@ footer > ul > li > a:hover {
         }
 
         section > h2 {
-            font-size: 28px;
+            font-size: 25px;
         }
     
         section > p {
@@ -219,7 +219,7 @@ footer > ul > li > a:hover {
         }
     
         .imgT {
-            width: 100%;
+            width: 91%;
             height: 350px;
             background-repeat: no-repeat;
             margin: auto;
@@ -241,20 +241,24 @@ footer > ul > li > a:hover {
         }
 
         footer {
-            width: 100%;
+            width: 92%;
         }
     
         footer > ul > li {
             margin: auto;
-            width: 70%;
+            width: 60%;
             list-style-type: none;
             margin-top: 4px;
+        }
+
+        footer h3 {
+            font-size: 20px;
         }
 
         #darkmod {
             cursor: pointer;
             border-radius: 10px;
-            font-size: 14px;
+            font-size: 13px;
             text-align: center;
             padding: 10px;
             margin: 5px;
